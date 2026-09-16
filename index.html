@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cybersystems VAD LTD — Mobile game studio, Nicosia, Cyprus</title>
+<meta name="description" content="Cybersystems VAD LTD is an independent mobile game studio in Nicosia, Cyprus. We design, develop and publish free-to-play strategy games for Android. Our first title is Crown Dawn.">
+<meta property="og:title" content="Cybersystems VAD LTD — Mobile game studio, Nicosia, Cyprus">
+<meta property="og:description" content="Independent mobile game studio in Cyprus. Free-to-play strategy games for Android. Our first title is Crown Dawn.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#070B14">
+<link rel="icon" type="image/png" href="assets/icon-01.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<script>window.PLAY_STORE_URL = "";</script>
+<style>
+:root{--bg:#070B14;--panel:#0E1422;--ink:#F4F6FB;--soft:#C9D0DD;--muted:#A3ACBE;--dim:#8F99AD;--lime:#C8FF3D;--gold:#FFC233;--line:rgba(255,255,255,.1)}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Archivo',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}a:hover{opacity:.82}
+img{display:block;max-width:100%}
+h1,h2,h3,p{margin:0;overflow-wrap:anywhere}
+.wrap{max-width:1280px;margin:0 auto;padding-left:64px;padding-right:64px}
+.wide{font-stretch:125%;font-weight:800;letter-spacing:-.03em}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--lime);margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;padding:16px 26px;border-radius:12px;white-space:nowrap}
+.btn-lime{background:var(--lime);color:var(--bg)}
+.btn-ghost{border:1px solid rgba(255,255,255,.28)}
+.btn-light{background:var(--ink);color:var(--bg);font-size:14px;padding:14px 20px}
+.nav{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:22px;padding-bottom:22px}
+.brand{display:flex;align-items:center;gap:12px;font-stretch:125%;font-weight:800;font-size:15px;letter-spacing:.08em}
+.hex{width:20px;height:22px;background:var(--lime);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);flex:none}
+.links{display:flex;gap:36px;font-size:14px;font-weight:500;color:var(--soft)}
+.nav-cta{background:var(--lime);color:var(--bg);font-weight:700;font-size:14px;padding:11px 18px;border-radius:10px;white-space:nowrap}
+.burger{display:none;width:44px;height:44px;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:none;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;padding:0}
+.burger span{width:18px;height:2px;background:var(--ink);display:block}
+.hero{padding-top:64px}
+.hero h1{font-size:clamp(38px,5vw,60px);line-height:1;margin-bottom:24px;text-wrap:balance}
+.hero p{font-size:19px;line-height:1.55;color:var(--soft);max-width:560px;margin-bottom:36px;text-wrap:pretty}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-art{position:relative;height:clamp(320px,48vw,624px);margin-top:-48px}
+.art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-art .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#070B14 0%,rgba(7,11,20,.75) 8%,rgba(7,11,20,0) 22%,rgba(7,11,20,0) 60%,rgba(7,11,20,.9) 90%,#070B14 100%)}
+.strip-wrap{position:absolute;left:0;right:0;bottom:0;z-index:2}
+.strip{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 0 8px;border-top:1px solid rgba(255,255,255,.14)}
+.title{display:flex;align-items:center;gap:16px}
+.title img{width:52px;height:52px;border-radius:14px}
+.title small{display:block;font-size:13px;color:var(--muted);margin-bottom:2px}
+.title b{font-stretch:125%;font-weight:800;font-size:18px;letter-spacing:-.01em}
+.tags{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;font-weight:600}
+.tags span{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.18);background:rgba(7,11,20,.5)}
+.tags .on{background:var(--lime);color:var(--bg);border-color:var(--lime)}
+.section{padding-top:120px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:48px;margin-bottom:36px}
+.sec-head h2{font-size:clamp(34px,4vw,48px);line-height:1}
+.sec-head p{max-width:440px;font-size:16px;line-height:1.55;color:var(--muted);text-align:right;text-wrap:pretty}
+.feature{position:relative;height:clamp(320px,42vw,540px);border-radius:24px;overflow:hidden;background:var(--panel)}
+.feature .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(7,11,20,.8) 0%,rgba(7,11,20,.4) 38%,rgba(7,11,20,0) 64%),linear-gradient(0deg,rgba(7,11,20,.75) 0%,rgba(7,11,20,0) 32%)}
+.feature .logo{position:absolute;left:56px;top:56px;z-index:2;pointer-events:none}
+.feature .logo img{width:clamp(200px,31vw,400px);margin-left:-10px;filter:drop-shadow(0 24px 48px rgba(0,0,0,.6))}
+.feature .slogan{margin-top:20px;font-stretch:125%;font-weight:800;font-size:20px;letter-spacing:.02em;text-transform:uppercase;color:var(--gold)}
+.feature .btn-light{position:absolute;right:56px;top:56px;z-index:2}
+.gallery{position:relative;z-index:2;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin:-64px 32px 0}
+.shot{aspect-ratio:9/16;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:0 24px 48px rgba(0,0,0,.55);background:var(--panel)}
+.shot img{width:100%;height:100%;object-fit:cover}
+.info{display:grid;grid-template-columns:1.1fr 1fr .9fr;gap:56px;padding-top:72px}
+.info h3{font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:16px}
+.info p{font-size:16px;line-height:1.6;color:var(--muted);text-wrap:pretty}
+.list div{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;font-weight:500}
+.list div:last-child{border-bottom:0}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--lime);flex:none}
+.rows div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+.rows div:last-child{border-bottom:0}
+.rows span{color:var(--muted)}.rows b{font-weight:600;text-align:right}
+.studio{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center}
+.studio h2{font-size:clamp(30px,3.4vw,40px);line-height:1.05;margin-bottom:24px;text-wrap:balance}
+.studio p{font-size:17px;line-height:1.6;color:var(--muted);max-width:560px;text-wrap:pretty}
+.photo{aspect-ratio:4/3;border-radius:24px;overflow:hidden;background:var(--panel);border:1px solid var(--line)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);margin-top:72px;border-top:1px solid var(--line)}
+.pillar{padding:32px 40px 0;border-right:1px solid var(--line)}
+.pillar:first-child{padding-left:0}.pillar:last-child{padding-right:0;border-right:0}
+.pillar h3{font-stretch:125%;font-weight:800;font-size:22px;letter-spacing:-.02em;margin-bottom:12px}
+.pillar p{font-size:15px;line-height:1.6;color:var(--muted)}
+.partners h2{font-size:28px;margin-bottom:24px}
+.logos{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.tile{height:96px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:var(--panel);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;overflow:hidden}
+.tile img{width:100%;height:100%;object-fit:contain;padding:18px 22px}
+.contact{margin-top:120px;border-top:1px solid var(--line);padding-top:112px;padding-bottom:112px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.contact h2{font-size:clamp(36px,4.4vw,52px);line-height:1;margin-bottom:20px}
+.contact .lead{font-size:17px;line-height:1.6;color:var(--muted);max-width:460px;margin-bottom:40px;text-wrap:pretty}
+.email{display:inline-block;font-stretch:125%;font-weight:800;font-size:clamp(20px,2.2vw,26px);letter-spacing:-.02em;color:var(--lime);margin-bottom:32px}
+.meta{display:flex;flex-wrap:wrap;gap:32px 48px;font-size:15px;line-height:1.6}
+.label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);font-weight:600;margin-bottom:6px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:8px 32px 12px}
+.card .label{padding:22px 0 10px;margin:0}
+.row{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line);font-size:15px;line-height:1.5}
+.row span{color:var(--muted)}.row b{font-weight:600}
+.foot{padding-top:28px;padding-bottom:32px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 28px;font-size:13px;color:var(--dim)}
+.foot .brand{font-size:12px;color:var(--ink)}.foot .hex{width:14px;height:16px}
+.foot nav{display:flex;flex-wrap:wrap;gap:12px 28px}
+@media (max-width:1024px){
+  .wrap{padding-left:32px;padding-right:32px}
+  .section{padding-top:88px}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:20px}.sec-head p{text-align:left}
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr));margin:-48px 16px 0}
+  .info,.studio{grid-template-columns:1fr;gap:40px}
+  .pillars{grid-template-columns:1fr;margin-top:56px}
+  .pillar{padding:28px 0 0;border-right:0;border-top:1px solid var(--line)}.pillar:first-child{border-top:0}
+  .logos{grid-template-columns:repeat(3,1fr)}
+  .contact{grid-template-columns:1fr;gap:48px;padding-top:80px;padding-bottom:80px;margin-top:88px}
+}
+@media (max-width:720px){
+  .wrap{padding-left:20px;padding-right:20px}
+  .section{padding-top:72px}
+  .links,.nav-cta{display:none}.burger{display:flex}
+  .nav.open .links{display:flex;flex-direction:column;gap:0;position:absolute;left:20px;right:20px;top:calc(100% - 6px);background:var(--panel);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:8px;z-index:20;box-shadow:0 24px 48px rgba(0,0,0,.5)}
+  .nav.open .links a{padding:14px 12px;border-radius:8px;font-size:16px;color:var(--ink)}
+  .hero{padding-top:36px}
+  .hero p{font-size:17px;margin-bottom:28px}
+  .actions .btn{flex:1 1 100%}
+  .hero-art{height:400px;margin-top:-16px}
+  .strip{flex-direction:column;align-items:flex-start;gap:14px;padding:16px 0 12px}
+  .feature{height:400px;border-radius:18px}
+  .feature .logo{left:22px;top:22px}.feature .logo img{width:200px;margin-left:-5px}.feature .slogan{font-size:15px;margin-top:12px}
+  .feature .btn-light{right:auto;left:22px;top:auto;bottom:22px}
+  .gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:20px -20px 0;padding:0 20px 16px;scrollbar-width:none}
+  .gallery::-webkit-scrollbar{display:none}
+  .shot{flex:0 0 46%;scroll-snap-align:start;box-shadow:0 12px 24px rgba(0,0,0,.4)}
+  .info{padding-top:40px;gap:32px}
+  .logos{grid-template-columns:repeat(2,1fr)}.tile{height:80px}
+  .contact{margin-top:72px;padding-top:64px;padding-bottom:64px;gap:40px}
+  .card{padding:4px 20px 8px}.row{grid-template-columns:1fr;gap:4px}
+  .meta{gap:24px}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap nav" id="nav">
+<a class="brand" href="#top"><span class="hex"></span>CYBERSYSTEMS</a>
+<nav class="links"><a href="#games">Crown Dawn</a><a href="#studio">Studio</a><a href="#partners">Partners</a><a href="#contact">Contact</a></nav>
+<a class="nav-cta" href="#contact">Contact us</a>
+<button class="burger" aria-label="Menu" aria-controls="nav" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+</div>
+<div class="wrap hero" id="top">
+<div class="eyebrow">Independent mobile game studio</div>
+<h1 class="wide">Mobile strategy games, made in Nicosia.</h1>
+<p>Cybersystems VAD LTD designs, develops and publishes free-to-play games for Android — and keeps them running long after launch. Our first title is Crown Dawn.</p>
+<div class="actions"><a class="btn btn-lime" href="#games" data-play>Crown Dawn on Google Play</a><a class="btn btn-ghost" href="#studio">About the studio</a></div>
+</div>
+<div class="hero-art">
+<img class="art" src="assets/feature-04.jpg" alt="Crown Dawn key art">
+<div class="fade"></div>
+<div class="strip-wrap"><div class="wrap"><div class="strip">
+<div class="title"><img src="assets/icon-01.png" alt="Crown Dawn icon"><div><small>Our first title</small><b>Crown Dawn</b></div></div>
+<div class="tags"><span>Strategy</span><span>PvP &amp; PvE</span><span>Android</span><span class="on">In development</span></div>
+</div></div></div>
+</div>
+</header>
+
+<section class="wrap section" id="games">
+<div class="sec-head">
+<div><div class="eyebrow">Games</div><h2 class="wide">Crown Dawn</h2></div>
+<p>Fast hex-map battles against players and AI. Collect unique heroes, build your deck, power them up and fight for the crown across new arenas.</p>
+</div>
+<div class="feature">
+<img class="art" src="assets/feature-02.jpg" alt="Crown Dawn feature art">
+<div class="fade"></div>
+<div class="logo"><img src="assets/crown-dawn-logo.png" alt="Crown Dawn"><div class="slogan">All for the crown!</div></div>
+<a class="btn btn-light" href="#games" data-play>Get it on Google Play</a>
+</div>
+<div class="gallery">
+<div class="shot"><img src="assets/gallery-01.jpg" alt="Crown Dawn screenshot 1"></div>
+<div class="shot"><img src="assets/gallery-02.jpg" alt="Crown Dawn screenshot 2"></div>
+<div class="shot"><img src="assets/gallery-03.jpg" alt="Crown Dawn screenshot 3"></div>
+<div class="shot"><img src="assets/gallery-04.jpg" alt="Crown Dawn screenshot 4"></div>
+<div class="shot"><img src="assets/gallery-05.jpg" alt="Crown Dawn screenshot 5"></div>
+<div class="shot"><img src="assets/gallery-06.jpg" alt="Crown Dawn screenshot 6"></div>
+</div>
+<div class="info">
+<div><h3>About the game</h3><p>Crown Dawn is a competitive strategy game on a hex map. Capture territory, deploy heroes from your deck and take the crown from real players or AI before the timer runs out. Short rounds, real decisions.</p></div>
+<div><h3>Features</h3><div class="list">
+<div><span class="dot"></span>Dominate in PvP &amp; PvE battles</div>
+<div><span class="dot"></span>Collect unique heroes</div>
+<div><span class="dot"></span>Craft winning strategies</div>
+<div><span class="dot"></span>Power up heroes</div>
+<div><span class="dot"></span>Unlock new arenas</div>
+</div></div>
+<div><h3>Details</h3><div class="rows">
+<div><span>Genre</span><b>Strategy</b></div>
+<div><span>Modes</span><b>PvP &amp; PvE</b></div>
+<div><span>Platform</span><b>Android · Google Play</b></div>
+<div><span>Model</span><b>Free-to-play</b></div>
+<div><span>Status</span><b style="color:var(--lime)">In development</b></div>
+</div></div>
+</div>
+</section>
+
+<section class="wrap section" id="studio">
+<div class="studio">
+<div>
+<div class="eyebrow">Studio</div>
+<h2 class="wide">The whole game, made in-house in Nicosia.</h2>
+<p>Cybersystems VAD LTD is a game development company incorporated in the Republic of Cyprus. Design, art, engineering, publishing and player support all happen under one roof — so we answer for the whole product, to players, platforms and partners.</p>
+</div>
+<div class="photo"><img src="assets/office.png" alt="Cybersystems office in Nicosia"></div>
+</div>
+<div class="pillars">
+<div class="pillar"><h3>Develop</h3><p>Concept, game design, art and engineering. A prototype becomes a product without leaving the building.</p></div>
+<div class="pillar"><h3>Publish</h3><p>Store listings, releases, compliance and policies on Google Play — under our own name.</p></div>
+<div class="pillar"><h3>Operate</h3><p>Events, balancing, analytics and player support that keep a game alive for years after launch.</p></div>
+</div>
+</section>
+
+<section class="wrap section partners" id="partners">
+<h2 class="wide">Platforms &amp; partners</h2>
+<div class="logos">
+<div class="tile">Google Play</div>
+<div class="tile"><img src="assets/partner-01-light.png" alt="Partner logo"></div>
+<div class="tile"><img src="assets/partner-02-light.png" alt="Partner logo"></div>
+<div class="tile"><img src="assets/partner-03-light.png" alt="Partner logo"></div>
+<div class="tile"><img src="assets/partner-04-light.png" alt="Partner logo"></div>
+<div class="tile"><img src="assets/partner-05-light.png" alt="Partner logo"></div>
+</div>
+</section>
+
+<section class="wrap contact" id="contact">
+<div>
+<div class="eyebrow">Contact</div>
+<h2 class="wide">Talk to the team.</h2>
+<p class="lead">Partnerships, publishing, platform and compliance enquiries — one inbox, answered by the people who make the game.</p>
+<a class="email" href="mailto:admin@cybersystems.pro">admin@cybersystems.pro</a>
+<div class="meta">
+<div><div class="label">Phone</div><a href="tel:+35797801587" style="font-weight:600">+357 97 801 587</a></div>
+<div><div class="label">Office</div><div>Kallipoleos 3, 1st floor, Office 102<br>1055 Nicosia, Cyprus</div></div>
+</div>
+</div>
+<div class="card">
+<div class="label">Company details</div>
+<div class="row"><span>Legal name</span><b>Cybersystems VAD LTD</b></div>
+<div class="row"><span>Legal form</span><b>Private limited company</b></div>
+<div class="row"><span>Jurisdiction</span><b>Republic of Cyprus</b></div>
+<div class="row"><span>Registration No.</span><b>HE ••••••</b></div>
+<div class="row"><span>VAT No.</span><b>CY••••••••L</b></div>
+<div class="row"><span>Registered office</span><b>Kallipoleos 3, 1st floor, Office 102, 1055 Nicosia, Cyprus</b></div>
+<div class="row"><span>Activity</span><b>Development and publishing of mobile games</b></div>
+</div>
+</section>
+
+<footer class="wrap foot">
+<a class="brand" href="#top"><span class="hex"></span>CYBERSYSTEMS</a>
+<nav><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Cookie Policy</a></nav>
+<span>© 2026 Cybersystems VAD LTD</span>
+</footer>
+<script>
+(function(){
+  var u=window.PLAY_STORE_URL;
+  if(u){document.querySelectorAll('a[data-play]').forEach(function(a){a.href=u;a.target='_blank';a.rel='noopener';});}
+  var nav=document.getElementById('nav');
+  nav.querySelectorAll('.links a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');});});
+})();
+</script>
+</body>
+</html>
