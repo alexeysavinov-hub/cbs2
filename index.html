@@ -101,6 +101,8 @@ h1,h2,h3,p{margin:0;overflow-wrap:anywhere}
 .next h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(36px,4vw,56px);letter-spacing:-.04em;line-height:.95;margin-bottom:6px}
 .next .sub{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:22px;letter-spacing:-.02em;color:var(--yellow);margin-bottom:18px}
 .next p{font-size:16px;line-height:1.6;max-width:520px;text-wrap:pretty;margin-bottom:24px}
+.next .shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:520px;margin-top:28px}
+.next .shots .shot{aspect-ratio:9/19.5;border-radius:18px;border-width:4px;box-shadow:0 16px 32px rgba(0,0,0,.3)}
 .studio{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;margin-bottom:24px}
 .studio h2{font-size:clamp(36px,4.4vw,56px);margin-bottom:24px;text-wrap:balance}
 .studio p{font-size:17px;line-height:1.55;color:var(--muted);max-width:520px;text-wrap:pretty}
@@ -171,7 +173,7 @@ h1,h2,h3,p{margin:0;overflow-wrap:anywhere}
   .gallery::-webkit-scrollbar{display:none}
   .shot{flex:0 0 46%;scroll-snap-align:start;border-width:4px;border-radius:18px;box-shadow:0 12px 24px rgba(22,22,30,.2)}
   .cards{margin-top:24px;gap:12px}.card{padding:24px 22px;border-radius:22px}.card h3{font-size:24px}
-  .next{grid-template-columns:1fr;padding:12px;gap:20px;border-radius:22px}.next .poster{aspect-ratio:4/3;border-width:4px;border-radius:16px}.next > div:last-child{padding:4px 10px 10px}
+  .next{grid-template-columns:1fr;padding:12px;gap:20px;border-radius:22px}.next .shots{gap:8px;margin-top:20px}.next .shots .shot{border-width:3px;border-radius:14px}.next .poster{aspect-ratio:4/3;border-width:4px;border-radius:16px}.next > div:last-child{padding:4px 10px 10px}
   .pillar{padding:26px 22px;border-radius:22px}.pillar h3{font-size:32px}
   .partners h2{font-size:32px}
   .logos{grid-template-columns:repeat(2,1fr);gap:12px}.tile{height:84px;border-radius:16px}
@@ -257,6 +259,11 @@ h1,h2,h3,p{margin:0;overflow-wrap:anywhere}
 <div class="sub">Casual Battles</div>
 <p>A lighter take on arena battles: merge units, assemble your squad and jump into quick matches. Made for short sessions and easy fun.</p>
 <div class="tags"><span>Casual</span><span>Merge</span><span>Battles</span><span>Android</span></div>
+<div class="shots">
+<div class="shot"><img src="assets/merge-01.jpg" width="450" height="1043" alt="Merge Arena — merge board before battle" loading="lazy" decoding="async"></div>
+<div class="shot"><img src="assets/merge-02.jpg" width="450" height="993" alt="Merge Arena — arena progress and unit deck" loading="lazy" decoding="async"></div>
+<div class="shot"><img src="assets/merge-03.jpg" width="450" height="1000" alt="Merge Arena — squads clashing in battle" loading="lazy" decoding="async"></div>
+</div>
 </div>
 </div>
 </section>
